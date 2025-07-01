@@ -7,9 +7,9 @@ import re, os
 
 id_pattern = re.compile(r'^.\d+$') 
 
-API_ID = os.environ.get("API_ID", "")
+API_ID = os.environ.get("API_ID", "28167693")
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "5924714f9a7a69c4fde389805baa7d23'")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
