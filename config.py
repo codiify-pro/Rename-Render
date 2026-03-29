@@ -7,11 +7,11 @@ import re, os
 
 id_pattern = re.compile(r'^.\d+$') 
 
-API_ID = os.environ.get("API_ID", "28167693")
+API_ID = os.environ.get("API_ID", "38250529")
 
-API_HASH = os.environ.get("API_HASH", "5924714f9a7a69c4fde389805baa7d23")
+API_HASH = os.environ.get("API_HASH", "87ba30a53f394110c5d056562f9d7f94")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8227057226:AAEGcySDGTsGawmXG1TCZS4WMLDd1JZWu4E") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8648695578:AAE5hCpXyMwJQinEEgE-uE8eUTo9W5fGnqo") 
 
 FORCE_SUB = os.environ.get("FORCE_SUB", "VJ_Botz") 
 
@@ -21,7 +21,7 @@ FORCE_SUB = os.environ.get("FORCE_SUB", "VJ_Botz")
 
 DB_NAME = os.environ.get("DB_NAME", "renamevjbot")     
 
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://gudiyakum678_db_user:4pyIIsSd8F60Fzo9@cluster0.ad5syvd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://aaryansah954:QgDQRgyD7VUa7Eho@cluster0.wjo9zfm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
